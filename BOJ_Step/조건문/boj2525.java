@@ -52,7 +52,6 @@ public class boj2525 {
 			}
 		}
 		
-
 	}
 
 }
