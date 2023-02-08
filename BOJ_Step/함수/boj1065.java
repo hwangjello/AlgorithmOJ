@@ -33,6 +33,7 @@ public class boj1065 {
 					j++;
 					
 				}
+				j=0;
 				if(arr[2]-arr[1]==arr[1]-arr[0]) {
 					ans+=1;
 				}
