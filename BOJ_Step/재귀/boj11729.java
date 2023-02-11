@@ -20,6 +20,8 @@ public class boj11729 {
 		else if(n==2) {
 			return 3;
 		}
+
+		
 		
 		
 		return 2*hanoi(n-1)+1;
