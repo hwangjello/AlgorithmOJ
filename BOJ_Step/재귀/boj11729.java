@@ -8,6 +8,7 @@ public class boj11729 {
 		int n=scan.nextInt();
 		scan.close();
 		
+
 		int ans=hanoi(n,1,3);
 		System.out.println(ans);
 	}
@@ -17,6 +18,7 @@ public class boj11729 {
 		}
 		else if(n==2) {
 			return 3;
+			
 		}
 		return 2*hanoi(n-1)+1;
 	}
