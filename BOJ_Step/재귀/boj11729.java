@@ -20,7 +20,7 @@ public class boj11729 {
 			return 3;
 			
 		}
-		return 2*hanoi(n-1)+1;
+		return 2;//*hanoi(n-1)+1;
 	}
 
 }
