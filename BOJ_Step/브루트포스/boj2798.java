@@ -12,9 +12,6 @@ public class boj2798 {
 		int [] cand=new int [500000];
 		card= new int [n];
 		int l=0;
-		int a=0;
-		int max=0;
-		int not=0;
 		for(int i=0;i<n;i++) {
 			card[i]=scan.nextInt();
 		}
