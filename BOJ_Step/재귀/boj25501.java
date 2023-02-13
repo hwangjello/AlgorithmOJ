@@ -1,4 +1,3 @@
-package BOJ_Step.재귀;
 
 import java.util.*;
 
@@ -24,6 +23,7 @@ public class boj25501{
     	for(int i=0;i<n;i++) {
     		arr[i]=scan.next();
     	}
+
     	scan.close();
         for(int i=0;i<n;i++) {
         	System.out.println(isPalindrome(arr[i])+" "+num);
