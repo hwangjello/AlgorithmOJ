@@ -1,4 +1,3 @@
-
 import java.util.*;
 //과정 출력 실패
 public class boj11729 {
